@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Delivery app</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <header>
+<h1>🍔 fast food</h1>
+</header>
+ 
+    <section class="menu">
+        <section class="cart">
+<h2>🛒 Cart</h2>
+<ul id="cart-items"></ul>
+<h3 id="total-price">Total: ₹0</h3>
+<button onclick="clearCart()">Clear Cart</button>
+</section>
+<div class="card">
+<h2>Pizza</h2>
+<p>₹10</p>
+<button onclick="orderFood('Pizza',10)">Order Now</button>
+</div>
+ 
+        <div class="card">
+<h2>Burger</h2>
+<p>₹8</p>
+<button onclick="orderFood('Burger',8)">Order Now</button>
+</div>
+ 
+        <div class="card">
+<h2>Pasta</h2>
+<p>₹12</p>
+<button onclick="orderFood('Pasta',12)">Order Now</button>
+</div>
+
+         <div class="card">
+<h2>french fries</h2>
+<p>₹10</p>
+<button onclick="orderFood('french fries',10)">Order Now</button>
+</div>
+
+    <div class="card">
+        <h3>soft drinks</h3>
+        <p>₹12.99</p>
+        <button onclick="orderFood('soft drinks',12.99)">Order Now</button>
+    </div>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+ 
