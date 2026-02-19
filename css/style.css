@@ -1,38 +1,31 @@
 body {
-
+ 
     font-family: Arial;
-
+ 
     margin: 0;
-
+ 
     background-color: #f4f4f4;
-
+ 
 }
-
-
  
 header {
-
-    background: orange;
-
-    color: red;
-
+    background: darkgreen;
+    color: white;
     text-align: center;
-
-    padding: 5px;
-
+    padding: 20px;
 }
  
+ 
 .menu {
-
+ 
     display: flex;
-
+ 
     justify-content: center;
-
+ 
     gap: 20px;
-
+ 
     padding: 40px;
-    flex-wrap: wrap;
-
+   flex-wrap: wrap;
 }
  
 .card {
@@ -45,26 +38,30 @@ header {
     transition: transform 0.3s ease;
 }
 .card:hover {
-    transform: scale(1.10);
+    transform: scale(1.05);
 }
+ 
+ 
 button {
-
+ 
     background: orange;
-
+ 
     color: white;
-
+ 
     border: none;
-
+ 
     padding: 10px;
-
+ 
     border-radius: 5px;
-
+ 
     cursor: pointer;
-
+ 
 }
 button:hover {
     background: red;
 }
+ 
+ 
 @media (max-width: 600px) {
     .menu {
         flex-direction: column;
@@ -75,10 +72,19 @@ button:hover {
         width: 80%;
     }
 }
+ 
 .cart {
     background: white;
     margin: 40px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.restaurant {
+    margin: 30px;
+}
+ 
+.restaurant h2 {
+    margin-bottom: 15px;
+    color: darkgreen;
 }

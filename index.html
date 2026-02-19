@@ -1,57 +1,83 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-<title>Food Delivery app</title>
+<title>FoodExpress</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
  
     <header>
-<h1>🍔 fast food</h1>
+<h1>🍔 FoodExpress</h1>
 </header>
  
     <section class="menu">
         <section class="cart">
-<h2>🛒 Cart</h2>
-<ul id="cart-items"></ul>
-<h3 id="total-price">Total: ₹0</h3>
-<button onclick="clearCart()">Clear Cart</button>
+    <h2>🛒 Cart</h2>
+    <ul id="cart-items"></ul>
+    <h3 id="total-price">Total: ₹0</h3>
+     <button onclick="clearCart()">Clear Cart</button>
 </section>
+ 
+<section class="restaurant">
+    <h2>🍕 Italian Hub</h2>
+ 
+    <div class="menu">
 <div class="card">
 <h2>Pizza</h2>
-<p>₹10</p>
-<button onclick="orderFood('Pizza',10)">Order Now</button>
+<p>₹299</p>
+<button onclick="orderFood('Pizza',299)">Order Now</button>
 </div>
  
+<section class="restaurant">
+    <h2>Burger point</h2>
+ 
+    <div class="menu">
         <div class="card">
 <h2>Burger</h2>
-<p>₹8</p>
-<button onclick="orderFood('Burger',8)">Order Now</button>
+<p>₹199</p>
+<button onclick="orderFood('Burger',199)">Order Now</button>
 </div>
  
+<section class="restaurant">
+    <h2> Italian hub</h2>
+ 
+    <div class="menu">
         <div class="card">
 <h2>Pasta</h2>
-<p>₹12</p>
-<button onclick="orderFood('Pasta',12)">Order Now</button>
+<p>₹249</p>
+<button onclick="orderFood('Pasta',249)">Order Now</button>
+ 
 </div>
-
+ 
+<section class="restaurant">
+    <h2>pardise resturent</h2>
+ 
+    <div class="menu">
+         <div class="card">
+<h2>Biryani</h2>
+<p>₹249</p>
+<button onclick="orderFood('Biryani',249)">Order Now</button>
+</div>
+ 
+<section class="restaurant">
+    <h2>kfc</h2>
+ 
+    <div class="menu">
          <div class="card">
 <h2>french fries</h2>
-<p>₹10</p>
-<button onclick="orderFood('french fries',10)">Order Now</button>
+<p>₹150</p>
+<button onclick="orderFood('French fries,150')">Order Now</button>
 </div>
-
-    <div class="card">
-        <h3>soft drinks</h3>
-        <p>₹12.99</p>
-        <button onclick="orderFood('soft drinks',12.99)">Order Now</button>
-    </div>
+ 
+          <div class="card">
+<h2>soft drinks</h2>
+<p>₹50</p>
+<button onclick="orderFood('softdrinks',50)">Order Now</button>
 </div>
 </section>
-
-<script src="script.js"></script>
+ 
+ <script src="js/script.js"></script>
 </body>
 </html>
-
  
